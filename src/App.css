@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.card-wrapper {
+  min-height: 720px;
+  min-width: 1280px;
+}
+
+@media (max-width: 1280px) {
+  .card-wrapper {
+    min-width: auto;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
