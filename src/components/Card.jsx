@@ -29,6 +29,7 @@ const Card = () => {
                   <div className="card-body">
                     <h5 className="card-title">{post.title}</h5>
                     <p className="card-text text-truncate">{post.selftext || 'No description added.'}</p>
+										<p>Score: {post.score}</p>
                     <a
                       href={`https://reddit.com${post.permalink}`}
                       className="btn btn-primary"
